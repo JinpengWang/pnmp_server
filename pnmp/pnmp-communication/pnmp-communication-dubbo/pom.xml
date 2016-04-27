@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<!-- 项目相关 -->
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.pnmp</groupId>
+		<artifactId>pnmp-communication</artifactId>
+		<version>1.0.0</version>
+	</parent>
+	<artifactId>pnmp-communication-dubbo</artifactId>
+	<name>pnmp-communication-dubbo</name>
+	<packaging>war</packaging>
+	<description>PNMP通信模块Dubbo</description>
+
+	<!-- 构建相关 -->
+	<build>
+		<finalName>pnmp-communication-dubbo</finalName>
+	</build>
+</project>
